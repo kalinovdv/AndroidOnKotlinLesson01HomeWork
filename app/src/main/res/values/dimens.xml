@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonMainActivityWidth">0dp</dimen>
+    <dimen name="textViewNotesFragmentTextSize">30sp</dimen>
+    <dimen name="textViewAddFragmentTextSize">30sp</dimen>
+    <dimen name="textViewSettingsFragmentTextSize">30sp</dimen>
+    <dimen name="navHeaderMainHeight">200dp</dimen>
+    <dimen name="navHeaderMainTextSize">28sp</dimen>
+    <dimen name="textViewAboutFragmentTextSize">30sp</dimen>
+    <dimen name="navHeaderMainPadding">16dp</dimen>
+    <dimen name="navHeaderMainTextSize2">16sp</dimen>
+    <dimen name="noteItemTextViewTextSize">30sp</dimen>
+    <dimen name="noteItemCardViewTitelTextSize">24sp</dimen>
+    <dimen name="noteItemCardViewTitelPaddingLeft">5dp</dimen>
+    <dimen name="noteItemCardViewDatePaddingRight">5dp</dimen>
+    <dimen name="noteItemCardViewDiscriptionPaddingLeft">5dp</dimen>
+    <dimen name="separatorHeight">10dp</dimen>
+    <dimen name="startFragmentSignInButtonMarginTop">8dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/notesFragmentMenuAdd"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="15"
+        android:title="@string/notesFragmentMenuAddTitle"
+        app:showAsAction="never"/>
+
+<!--    <item-->
+<!--        android:id="@+id/notesFragmentMenuUpdate"-->
+<!--        android:icon="@android:drawable/ic_menu_add"-->
+<!--        android:orderInCategory="16"-->
+<!--        android:title="@string/notesFragmentMenuUpdateTitel"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/notesFragmentMenuDelete"-->
+<!--        android:icon="@android:drawable/ic_menu_add"-->
+<!--        android:orderInCategory="17"-->
+<!--        android:title="@string/notesFragmentMenuDeleteTitel"-->
+<!--        app:showAsAction="never"/>-->
+
+    <item
+        android:id="@+id/notesFragmentMenuClear"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="18"
+        android:title="@string/notesFragmentMenuClearTitel"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/notesFragmentMenuExit"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="110"
+        android:title="@string/notesFragmentMenuExitTitle"
+        app:showAsAction="never"/>
+
+</menu>

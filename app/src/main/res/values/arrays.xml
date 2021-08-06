@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="titels">
+        <item>Заметка 1</item>
+        <item>Заметка 2</item>
+        <item>Заметка 3</item>
+        <item>Заметка 4</item>
+        <item>Заметка 5</item>
+        <item>Заметка 6</item>
+        <item>Заметка 7</item>
+        <item>Заметка 8</item>
+        <item>Заметка 9</item>
+        <item>Заметка 10</item>
+        <item>Заметка 11</item>
+        <item>Заметка 12</item>
+        <item>Заметка 13</item>
+        <item>Заметка 14</item>
+        <item>Заметка 15</item>
+        <item>Заметка 16</item>
+        <item>Заметка 17</item>
+        <item>Заметка 18</item>
+        <item>Заметка 19</item>
+        <item>Заметка 20</item>
+    </string-array>
+
+    <string-array name="discription">
+        <item>Описание заметки 1</item>
+        <item>Описание заметки 2</item>
+        <item>Описание заметки 3</item>
+        <item>Описание заметки 4</item>
+        <item>Описание заметки 5</item>
+        <item>Описание заметки 6</item>
+        <item>Описание заметки 7</item>
+        <item>Описание заметки 8</item>
+        <item>Описание заметки 9</item>
+        <item>Описание заметки 10</item>
+        <item>Описание заметки 11</item>
+        <item>Описание заметки 12</item>
+        <item>Описание заметки 13</item>
+        <item>Описание заметки 14</item>
+        <item>Описание заметки 15</item>
+        <item>Описание заметки 16</item>
+        <item>Описание заметки 17</item>
+        <item>Описание заметки 18</item>
+        <item>Описание заметки 19</item>
+        <item>Описание заметки 20</item>
+    </string-array>
+</resources>

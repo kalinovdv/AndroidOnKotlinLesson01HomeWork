@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="buttonMainActivityNotesText">Заметки</string>
+    <string name="buttonMainActivityAddNoteText">Добавить</string>
+    <string name="buttonMainActivitySettingsText">Настройки</string>
+    <string name="textViewNotesFragmentText">Список заметок</string>
+    <string name="textViewAddFragmentText">Добавить заметку</string>
+    <string name="textViewSettingsFragmentText">Настройки</string>
+    <string name="mainMenuSearchTitle">Поиск</string>
+    <string name="mainMenuSettingsTitle">Настройки</string>
+    <string name="mainMenuAboutTitle">О программе</string>
+    <string name="notesFragmentMenuAddTitle">Добавить</string>
+    <string name="popupMenuAdd">Добавить</string>
+    <string name="popupMenuEdit">Изменить</string>
+    <string name="popupMenuDelete">Удалить</string>
+    <string name="popupMenuUpdate">Обновить</string>
+    <string name="mainDrawerSettingsTitle">Настройки</string>
+    <string name="mainDrawerAboutTitle">О программе</string>
+    <string name="navigationDrawerOpen">Открыть навигационное меню</string>
+    <string name="navigationDrawerClose">Закрыть навигационное меню</string>
+    <string name="textViewAboutFragmentText">О программе</string>
+    <string name="navHeaderMainText2">Иванов И.И.</string>
+    <string name="fragmentAddTitleEditTextHint">Название заметки</string>
+    <string name="fragmentAddTextEditTextHint">Описание заметки</string>
+    <string name="fragmentAddDateEditTextHint">Дата заметки</string>
+    <string name="fragmentAddButtonAddText">Добавить</string>
+    <string name="notesFragmentMenuUpdateTitel">Изменить</string>
+    <string name="notesFragmentMenuDeleteTitel">Удалить</string>
+    <string name="notesFragmentMenuClearTitel">Очистить</string>
+    <string name="noteMenuUpdateTitel">Изменить</string>
+    <string name="noteMenuDeleteTitel">Удалить</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NoteFragmentInputTitleHint">Заголовок</string>
+    <string name="NoteFragmentInputTextHint">Описание</string>
+    <string name="startFragmentMaterialButtonText">Продолжить...</string>
+    <string name="notesFragmentMenuExitTitle">Выйти</string>
+    <string name="alertDialogTitle">Внимание</string>
+    <string name="alertDialogVessage">Удалить заметку?</string>
+    <string name="alertDialogPositiveButton">Удалить</string>
+    <string name="alertDialogNegativeButton">Отмена</string>
+</resources>

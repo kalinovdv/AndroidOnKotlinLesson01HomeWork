@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddFragment">
+
+    <EditText
+        android:id="@+id/fragmentAddTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/fragmentAddTitleEditTextHint"/>
+
+    <EditText
+        android:id="@+id/fragmentAddTextEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fragmentAddTextEditTextHint"
+        android:inputType="textMultiLine"
+        android:lines="15"/>
+
+    <EditText
+        android:id="@+id/fragmentAddDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/fragmentAddDateEditTextHint"/>
+
+    <Button
+        android:id="@+id/fragmentAddButtonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragmentAddButtonAddText"/>
+
+</LinearLayout>

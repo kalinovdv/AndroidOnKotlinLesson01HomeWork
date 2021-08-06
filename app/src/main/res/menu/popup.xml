@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popupMenuAdd"
+        android:title="@string/popupMenuAdd"
+        android:orderInCategory="10"/>
+
+    <item
+        android:id="@+id/popupMenuEdit"
+        android:title="@string/popupMenuEdit"
+        android:orderInCategory="20"/>
+
+    <item
+        android:id="@+id/popupMenuDelete"
+        android:title="@string/popupMenuDelete"
+        android:orderInCategory="30"/>
+
+    <item
+        android:id="@+id/popupMenuUpdate"
+        android:title="@string/popupMenuUpdate"
+        android:orderInCategory="40"/>
+
+</menu>
