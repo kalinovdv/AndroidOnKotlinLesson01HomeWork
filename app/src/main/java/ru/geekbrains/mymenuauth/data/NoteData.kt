@@ -25,7 +25,7 @@ class NoteData : Parcelable{
         id = parsel.readString()?:""
     }
 
-    companion object CREATER : Parcelable.Creator<NoteData> {
+    companion object CREATOR : Parcelable.Creator<NoteData> {
         override fun createFromParcel(parsel : Parcel) : NoteData {
             return NoteData(parsel);
         }
