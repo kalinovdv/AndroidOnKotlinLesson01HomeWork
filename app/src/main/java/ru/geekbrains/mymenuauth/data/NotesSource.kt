@@ -1,4 +1,4 @@
-package ru.geekbrains.mymenuauth.data;
+package ru.geekbrains.mymenuauth.data
 
 interface NotesSource {
     fun init(notesSourceResponse : NotesSourceResponse) : NotesSource

@@ -1,9 +1,7 @@
-package ru.geekbrains.mymenuauth.data;
+package ru.geekbrains.mymenuauth.data
 
-import com.google.firebase.Timestamp;
-
-import java.util.HashMap;
-import java.util.Map;
+import com.google.firebase.Timestamp
+import java.util.*
 
 class NoteDataMapping {
     object Fields {
@@ -13,20 +11,20 @@ class NoteDataMapping {
 
     companion object {
         @JvmStatic
-        fun toNoteData(id : String, doc : Map<String, Object>) : NoteData {
-            var timestamp : Timestamp = doc.get(Fields.DATE) as Timestamp
-            var answer : NoteData = NoteData(doc.get(Fields.TITLE) as String, doc.get(Fields.TEXT) as String, timestamp.toDate())
+        fun toNoteData(id : String, doc : MutableMap<String, Any>) : NoteData {
+            val timestamp : Timestamp = doc.get(Fields.DATE) as Timestamp
+            val answer = NoteData(doc.get(Fields.TITLE) as String, doc.get(Fields.TEXT) as String, timestamp.toDate())
             answer.id = id
             return answer
         }
 
         @JvmStatic
        fun toDocument(noteData : NoteData) : MutableMap<String, Any> {
-            var answer : MutableMap<String, Any> = HashMap();
-            answer.put(Fields.TITLE, noteData.titel);
-            answer.put(Fields.TEXT, noteData.text);
-            answer.put(Fields.DATE, noteData.date);
-            return answer;
+            val answer : MutableMap<String, Any> = HashMap()
+            answer.put(Fields.TITLE, noteData.titel)
+            answer.put(Fields.TEXT, noteData.text)
+            answer.put(Fields.DATE, noteData.date)
+            return answer
         }
     }
 }

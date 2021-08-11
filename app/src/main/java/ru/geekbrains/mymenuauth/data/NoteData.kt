@@ -1,9 +1,9 @@
-package ru.geekbrains.mymenuauth.data;
+package ru.geekbrains.mymenuauth.data
 
-import android.os.Parcel;
-import android.os.Parcelable;
+import android.os.Parcel
+import android.os.Parcelable
 
-import java.util.Date;
+import java.util.Date
 
 class NoteData : Parcelable{
     var id : String
@@ -27,23 +27,23 @@ class NoteData : Parcelable{
 
     companion object CREATOR : Parcelable.Creator<NoteData> {
         override fun createFromParcel(parsel : Parcel) : NoteData {
-            return NoteData(parsel);
+            return NoteData(parsel)
         }
 
         override fun newArray(size : Int) : Array<NoteData?> {
-            return arrayOfNulls(size);
+            return arrayOfNulls(size)
         }
-    };
+    }
 
     override fun describeContents() : Int {
         return 0
     }
 
-    override fun writeToParcel(dest : Parcel, flags : Int) : Unit {
+    override fun writeToParcel(dest : Parcel, flags : Int) {
         dest.writeString(titel)
         dest.writeString(text)
         dest.writeString(id)
-        dest.writeLong(date.getTime())
+        dest.writeLong(date.time)
     }
 
 }
